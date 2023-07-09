@@ -1,0 +1,21 @@
+<%- include('partials/header') %>
+<div class="container" style="background-color: violet;">
+    <div class="row-flex">
+      <div class="flex-column-form">
+        <h3>
+          Make a booking
+        </h3>
+        <img src="/public/photo-1517248135467-4c7edcad34c4.jpeg" alt="">
+      <form class="media-centered">
+          <div class="form-group">
+            <p>
+              Please leave your number we will call to make a reservation
+            </p>
+            Name:<input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Enter your name" name="name" required="">
+          </div>
+          <div class="form-group">
+           Phone No: <input type="number" class="form-control" id="exampleInputphoneNumber1" placeholder="Enter your phone number" name="phoneno" required="">
+          </div>
+          <a href="/thankyou" style="border:2px;">Submit</a>
+      </form>
+      <%- include('partials/footer') %>
